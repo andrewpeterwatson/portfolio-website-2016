@@ -1,0 +1,116 @@
+
+.body-container {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  outline: 1px solid black;
+}
+.logo {
+  background-image: url('../../assets/images/logoCpdePensBikeCoffeeSMALL.png');
+  float: left;
+  width: 30%;
+  height: 100%;
+  outline: 1px solid black;
+}
+
+.body-name {
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: 70%;
+  height: 20%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  // font-family: 'Inconsolata', monospace;
+  letter-spacing: 15px;
+  border-bottom: 1px solid black;
+}
+
+.contact-buttons {
+  padding: 0;
+  margin: 0;
+  float: right;
+  width: 70%;
+  height: 30%;
+  text-align: center;
+  font-size: 4em;
+  border-bottom: 1px solid black;
+}
+
+.cBtn {
+  padding: 0;
+  margin: 0;
+  margin-left: -1px;
+  float: right;
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  border-right: 1px solid black;
+  line-height: 90px;
+}
+.faceBtn {
+  &:hover {
+    color: white;
+    background-color: #3B5998;
+  }
+}
+.gitBtn {
+
+}
+.linkedBtn {
+  &:hover {
+    color: #4875B4;
+  }
+}
+.emailBtn {
+border-right: 0;
+&:hover {
+  background-color: yellow;
+}
+}
+
+.projectPage {
+  margin: 0;
+  padding: 0;
+  margin-right: -1px;
+  float: left;
+  width: 25%;
+  height: 49.5%;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  // font-family: 'Josefin Sans', sans-serif;
+  // font-family: 'Lobster', cursive;
+  font-size: 3em;
+  border-right: 1px solid black;
+}
+
+#pEl {
+  font-size: 1.3em;
+}
+
+.aboutPage {
+  margin: 0;
+  padding: 0;
+  margin-bottom: -1px;
+  float: right;
+  height: 24%;
+  width: 45%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 3.2em;
+  letter-spacing: -2px;
+}
+.contactPage {
+  margin: 0;
+  padding: 0;
+  float: right;
+  height: 25%;
+  width: 45%;
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  // font-family: 'Cinzel', serif;
+  // font-family: 'Anton', sans-serif;
+  font-size: 3.2em;
+  letter-spacing: -2px;
+}

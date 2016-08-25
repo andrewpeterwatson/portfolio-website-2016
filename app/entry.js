@@ -8,3 +8,4 @@ const angular = require('angular');
 angular.module('portApp', []);
 
 require('./component/main');
+require('./component/project-preview');
