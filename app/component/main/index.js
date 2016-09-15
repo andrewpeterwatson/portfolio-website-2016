@@ -23,11 +23,9 @@ function MainController(){
     $('.moveAbout').toggleClass('moveAboutActive');
     $('.aboutBackBtnMove').toggleClass('aboutBackBtnMoveActive');
   });
-  $('.aboutBackBtn').click(function() {
-    console.log('clicked');
-    $('.moveAboutActive').toggleClass('moveAbout');
-    // $('.aboutBackBtnMoveActive').toggleClass('aboutBackBtnMove');
+
+  $('.contactBtn').click(function() {
+    $('.moveContact').toggleClass('moveContactActive');
+    $('.contactBackBtnMove').toggleClass('contactBackBtnMoveActive');
   });
-
-
 }

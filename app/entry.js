@@ -9,3 +9,4 @@ angular.module('portApp', []);
 
 require('./component/main');
 require('./component/about-me');
+require('./component/contact-page');
