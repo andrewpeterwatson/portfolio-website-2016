@@ -24,8 +24,8 @@ function MainController(){
     $('.aboutBackBtnMove').toggleClass('aboutBackBtnMoveActive');
   });
 
-  $('.contactBtn').click(function() {
-    $('.moveContact').toggleClass('moveContactActive');
-    $('.contactBackBtnMove').toggleClass('contactBackBtnMoveActive');
+  $('.resumeBtn').click(function() {
+    $('.moveResume').toggleClass('moveResumeActive');
+    $('.resumeBackBtnMove').toggleClass('resumeBackBtnMoveActive');
   });
 }

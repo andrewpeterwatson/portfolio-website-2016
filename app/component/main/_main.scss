@@ -17,7 +17,7 @@ z-index: 2;
   border-left: 1px solid black;
   // outline: 1px solid red;
 }
-.contact-page-edge {
+.resume-page-edge {
   margin: 0;
   padding: 0;
   z-index: 3;
@@ -44,7 +44,7 @@ z-index: 2;
   margin-top: -3.59%;
   margin-left: 100%;
 }
-.contact-page-container{
+.resume-page-container{
   padding: 0;
   margin: 0;
   position: absolute;
@@ -74,7 +74,7 @@ z-index: 2;
   border-bottom: 1px solid black;
 }
 
-.contact-buttons {
+.resume-buttons {
   padding: 0;
   margin: 0;
   float: right;
@@ -157,7 +157,7 @@ border-right: 0;
     color: yellow;
   }
 }
-.contactPage {
+.resumePage {
   margin: 0;
   padding: 0;
   float: right;
@@ -204,7 +204,7 @@ transition: all .5s ease;
 .aboutBackBtnMoveActive {
   margin-left: 87.4%;
 }
-.contactBackBtn {
+.resumeBackBtn {
   padding: 0;
   margin: 0;
   position: absolute;
@@ -227,22 +227,22 @@ transition: all .5s ease;
     cursor: pointer;
   }
 }
-.contactBackBtnMove {
+.resumeBackBtnMove {
 transition: all .5s ease;
 }
-.contactBackBtnMoveActive {
+.resumeBackBtnMoveActive {
   margin-left: 87.3%;
 }
 .moveAbout{
 transition: all .5s ease;
 }
-.moveContact{
+.moveResume{
 transition: all .5s ease;
 }
 .moveAboutActive {
       margin-left: 0;
 }
-.moveContactActive {
+.moveResumeActive {
       margin-left: 0;
 }
 .hide-about {
@@ -255,7 +255,7 @@ transition: all .5s ease;
   // outline: 1px solid red;
   background-color: white;
 }
-.hide-contact {
+.hide-resume {
   position: absolute;
   z-index: 2;
   width: 600px;
