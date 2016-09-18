@@ -4,3 +4,40 @@
   outline: 1px solid black;
   background-color: white;
 }
+.about-header {
+  margin-left: 20%;
+}
+
+.profile-picture {
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 7%;
+  width: 100px;
+  height: 100px;
+  outline: 1px red solid;
+}
+
+.about-name {
+  padding: 0;
+  margin: 3%;
+  margin-top: 11%;
+  float: left;
+  width: 100px;
+  border-bottom: 1px solid black;
+  font-size: 2em
+}
+.about-div {
+  width: 75%;
+  height: 50%;
+  margin-left: 12.5%;
+  margin-top: 3.6%;
+  // outline: 1px red solid;
+
+  p {
+      position: absolute;
+      text-align: center;
+      width: 75%;
+      margin-top: 27%;
+  }
+}

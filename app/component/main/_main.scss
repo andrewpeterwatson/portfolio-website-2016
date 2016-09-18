@@ -29,7 +29,7 @@ z-index: 2;
   position: absolute;
   width: 600px;
   height: 300px;
-  margin-left: -100%;
+  margin-left: -100.1%;
   border-right: 1px solid black;
 }
 .body-container {
@@ -38,7 +38,7 @@ z-index: 2;
   position: absolute;
   width: 600px;
   height: 300px;
-  margin-left: 27%;
+  margin-left: 36%;
   margin-top: 15%;
   outline: 1px solid black;
 }
@@ -54,7 +54,7 @@ z-index: 2;
   margin: 0;
   position: absolute;
   // z-index: 2;
-  margin-left: -100%;
+  margin-left: -100.1%;
 }
 .logo {
   background-image: url('../../assets/images/logoCpdePensBikeCoffeeSMALL.png');
@@ -128,9 +128,10 @@ border-right: 0;
 .projectPage {
   margin: 0;
   padding: 0;
-  margin-right: -1px;
+  // margin-right: -2px;
   float: left;
-  width: 25%;
+  z-index: 0;
+  width: 24%;
   height: 49.5%;
   text-align: center;
   font-family: 'Inconsolata', monospace;
@@ -138,7 +139,49 @@ border-right: 0;
   // font-family: 'Lobster', cursive;
   font-size: 3em;
   border-right: 1px solid black;
+  border-left: 1px solid black;
+  // outline: 1px red solid;
 }
+.geo-thing {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 148px;
+  height: 148px;
+  // opacity: .50;
+  border-right: 1px solid black;
+}
+.geo-thing-overlay {
+// opacity: 0;
+
+font-size: 5em;
+color: white;
+z-index: 0;
+margin: 0;
+padding: 0;
+// margin-top: -26%;
+margin-left: -4%;
+background-blend-mode: overlay;
+opacity: .30;
+background-image: url('../../assets/images/geo-thing.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-blend-mode: overlay;
+}
+// .geo-btn {
+//   z-index: 0;
+//   margin: 0;
+//   padding: 0;
+//   margin-top: -26%;
+//   margin-left: -14%;
+// }
+// .geo-thing-image {
+//   z-index: 0;
+//   background-image: url('../../assets/images/geo-thing.png');
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   background-blend-mode: overlay;
+// }
 
 #pEl {
   font-size: 1.3em;
@@ -164,6 +207,7 @@ border-right: 0;
 .resumePage {
   margin: 0;
   padding: 0;
+  z-index: 2;
   float: right;
   height: 25%;
   width: 44%;
@@ -215,7 +259,7 @@ transition: all .5s ease;
   float: right;
   height: 75px;
   width: 75px;
-  margin-left: -12.7%;
+  margin-left: -12.8%;
   font-size: 5em;
   outline: 1px solid black;
   background-color: white;
@@ -264,7 +308,7 @@ transition: all .5s ease;
   z-index: 2;
   width: 600px;
   height: 310px;
-  margin-left: -100.05%;
+  margin-left: -100.1%;
   margin-top: -1%;
   // outline: 1px solid red;
   background-color: white;
