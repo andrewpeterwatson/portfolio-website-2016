@@ -1,0 +1,47 @@
+.resume-container {
+  width: 600px;
+  height: 300px;
+  outline: 1px solid black;
+  background-color: white;
+  // background-image: url('../../assets/images/honeycomb-white.png');
+}
+
+.resume-pages {
+  padding: 0;
+  margin: 0;
+  margin-left: 5%;
+  margin-top: 4%;
+  display: inline-block;
+  width: 193px;
+  height: 250px;
+  outline: 1px solid black;
+}
+
+.resume-page-one {
+  margin-left: 13%;
+  background-image: url('../../assets/images/sept-resume1-thumbnail.png');
+  background-size: contain;
+
+}
+
+.resume-page-two {
+  background-image: url('../../assets/images/sept-resume2-thumbnail.png');
+  background-size: contain;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  font-size: 3em;
+  background-image: url('../../assets/images/resume-overlay.png');
+  &:hover {
+    opacity: 100;
+  }
+  i {
+    margin-left: 40%;
+    margin-top: 50%;
+  }
+}
+.overlay-one {
+  margin-left: 13%;
+}

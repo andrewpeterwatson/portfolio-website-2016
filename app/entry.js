@@ -9,3 +9,6 @@ angular.module('portApp', []);
 
 require('./component/main');
 require('./component/about-me');
+require('./component/resume-page');
+require('./component/resume-modal');
+// require('./component/contact-page-form');

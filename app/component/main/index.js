@@ -17,17 +17,22 @@ angular.module('portApp')
 .controller('MainController', [MainController]);
 
 function MainController(){
-  var $ = require('jquery');
+  const $ = require('jquery');
+  this.displayResumeModal = false;
 
+  this.showResumeModal = function(){
+    this.displayResumeModal = true;
+  };
+  this.hideResumeModal = function(){
+    this.displayResumeModal = false;
+  };
   $('.aboutBtn').click(function() {
     $('.moveAbout').toggleClass('moveAboutActive');
     $('.aboutBackBtnMove').toggleClass('aboutBackBtnMoveActive');
   });
-  $('.aboutBackBtn').click(function() {
-    console.log('clicked');
-    $('.moveAboutActive').toggleClass('moveAbout');
-    // $('.aboutBackBtnMoveActive').toggleClass('aboutBackBtnMove');
+
+  $('.resumeBtn').click(function() {
+    $('.moveResume').toggleClass('moveResumeActive');
+    $('.resumeBackBtnMove').toggleClass('resumeBackBtnMoveActive');
   });
-
-
 }
