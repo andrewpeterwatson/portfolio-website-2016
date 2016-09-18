@@ -1,6 +1,6 @@
 'use strict';
 
-require('./resume.scss');
+require('./_resume.scss');
 
 const angular = require('angular');
 angular.module('portApp').directive('resumePage', function() {
