@@ -8,13 +8,16 @@
 .resume-heading {
   position: absolute;
   font-size: 2.5em;
+  font-family: 'Cabin Sketch', cursive;
   margin-left: 49%;
   margin-top: -45%;
 }
 
 #resume-h2 {
-  font-size: 1em;
+  font-size: .7em;
+  font-family: 'Cabin Sketch', cursive;
   margin-left: 6%;
+  margin-top: 7%;
   width: 125px;
   border-bottom: 1px solid black;
 }
@@ -61,6 +64,7 @@
   background-image: url('../../assets/images/resume-overlay.png');
   &:hover {
     opacity: 100;
+    cursor: pointer;
   }
   i {
     margin-left: 40%;
