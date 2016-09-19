@@ -65,18 +65,30 @@ z-index: 2;
 }
 
 .body-name {
-  font-size: 2em;
+  font-size: 3.3em;
   margin: 0;
   padding: 0;
   float: right;
   width: 70%;
   height: 20%;
+  margin-top: 0%;
+  color: #434d65;
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
+  // font-family: 'Satisfy', cursive;
+  // font-family: 'Andada', serif;
+  // font-family: 'Bangers', cursive;
+  // font-family: 'Shrikhand', cursive;
+  // font-family: 'Amatica SC', cursive;
+  font-family: 'Cabin Sketch', cursive;
+
+
+  // font-family: 'Josefin Sans', sans-serif;
   // font-family: 'Inconsolata', monospace;
-  letter-spacing: 15px;
+  letter-spacing: -5px;
+  text-shadow: red -2px;
   border-bottom: 1px solid black;
 }
+
 
 .resume-buttons {
   padding: 0;
@@ -119,19 +131,20 @@ z-index: 2;
 }
 .emailBtn {
 border-right: 0;
+color: #ea6045;
+background-color: #ea6045;
 &:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 }
 
 .projectPage {
   margin: 0;
   padding: 0;
-  // margin-right: -2px;
   float: left;
   z-index: 0;
-  width: 24%;
+  width: 24.6%;
   height: 49.5%;
   text-align: center;
   font-family: 'Inconsolata', monospace;
@@ -140,48 +153,13 @@ border-right: 0;
   font-size: 3em;
   border-right: 1px solid black;
   border-left: 1px solid black;
-  // outline: 1px red solid;
-}
-.geo-thing {
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  width: 148px;
-  height: 148px;
-  // opacity: .50;
-  border-right: 1px solid black;
-}
-.geo-thing-overlay {
-// opacity: 0;
+  background-color: #f8ca4d;
 
-font-size: 5em;
-color: white;
-z-index: 0;
-margin: 0;
-padding: 0;
-// margin-top: -26%;
-margin-left: -4%;
-background-blend-mode: overlay;
-opacity: .30;
-background-image: url('../../assets/images/geo-thing.png');
-background-size: contain;
-background-repeat: no-repeat;
-background-blend-mode: overlay;
+  &:hover {
+    background-color: #3f5666;
+  }
 }
-// .geo-btn {
-//   z-index: 0;
-//   margin: 0;
-//   padding: 0;
-//   margin-top: -26%;
-//   margin-left: -14%;
-// }
-// .geo-thing-image {
-//   z-index: 0;
-//   background-image: url('../../assets/images/geo-thing.png');
-//   background-size: contain;
-//   background-repeat: no-repeat;
-//   background-blend-mode: overlay;
-// }
+
 
 #pEl {
   font-size: 1.3em;
@@ -201,7 +179,8 @@ background-blend-mode: overlay;
   letter-spacing: -2px;
 
   &:hover {
-    color: yellow;
+    color: #3f5666;
+    cursor: pointer;
   }
 }
 .resumePage {
@@ -219,7 +198,8 @@ background-blend-mode: overlay;
   letter-spacing: -2px;
 
   &:hover {
-    color: red;
+    color: #3f5666;
+    cursor: pointer;
   }
 }
 .aboutBackBtn {

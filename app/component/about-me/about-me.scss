@@ -5,27 +5,31 @@
   background-color: white;
 }
 .about-header {
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .profile-picture {
   float: left;
   margin: 0;
   padding: 0;
-  margin-top: 7%;
+  margin-top: 4%;
+  margin-left: -6%;
   width: 100px;
   height: 100px;
-  outline: 1px red solid;
+  outline: 1px black solid;
+  background-image: url('../../assets/images/profile-thumbnail.png');
+  background-size: contain;
 }
 
 .about-name {
   padding: 0;
   margin: 3%;
-  margin-top: 11%;
+  margin-top: 7%;
   float: left;
-  width: 100px;
+  width: 381px;
   border-bottom: 1px solid black;
-  font-size: 2em
+  font-size: 2em;
+  font-family: 'Cabin Sketch', cursive;
 }
 .about-div {
   width: 75%;
@@ -36,8 +40,9 @@
 
   p {
       position: absolute;
-      text-align: center;
-      width: 75%;
-      margin-top: 27%;
+      text-align: left;
+      width: 60%;
+      margin-top: 15%;
+      margin-left: 12%;
   }
 }
